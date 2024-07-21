@@ -1,0 +1,255 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/newprostyle.css --watch  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewProfie</title>
+    <link rel="stylesheet" href="newprostyle.css">
+    
+</head>
+<body class="font-geist">
+    <nav class=" h-[60vh] md:h-[50vh] lg:h-screen bg-no-repeat bg-cover bg-center" style="background-image:url('2_pics/louis-hansel-ODUtyGPB4Yo-unsplash-2.jpg') ;">
+        <div id="navb" class=" h-[7vh]  lg:h-[10vh] bg-[#0c1117] px-5 md:px12 lg:px-24 content-center fixed w-full">
+            <div class="flex justify-between ">
+                        <div class="flex  h-full space-x-7">
+                            <div class="relative content-center">
+                                <button class="hamburger lg:hidden text-white focus:outline-none"   onclick="toggleMenu()">
+                                    <span class="line1 block relative bg-white w-6 h-[2px] duration-300 rounded-sm"></span>
+                                    <span class="line2 block relative bg-white w-6 h-[2px] duration-300 rounded-sm mt-1"></span>
+                                    <span class="line3 block relative bg-white w-6 h-[2px] duration-300 rounded-sm mt-1"></span>
+                                </button>
+                            </div>
+        
+                             <img class="h-9 w-24  invert" src="2_pics/ghost-logo-dark.png" alt="">
+                        </div>
+                     <div class="flex  lg:space-x-7 ">
+                            <a class="hidden hover:brightness-75 lg:block text-white  font-serif" href="">Fearures</a>
+                            <a class="hidden hover:brightness-75 lg:block text-white font-serif" href="">Style Guide</a>
+                            <a class="hidden hover:brightness-75 lg:block text-[#2d65ff] font-serif" href="">Landing Page</a>
+                            <a class="hidden hover:brightness-75 lg:block text-white font-serif" href="">Membership</a>
+                            <a class="hidden hover:brightness-75 lg:block text-white font-serif" href="">Documentation</a>
+                            <a href="">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-white hover:brightness-75">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /> 
+                                </svg>
+                             </a>
+                            <a class="hidden lg:block text-xl  px-3 text-[#2d65ff] font-serif border border-[#2d65ff] rounded-3xl hover:-translate-y-1 duration-500" href="">Sign In</a>
+                     </div>
+            </div>
+            
+        </div>
+        <!-- hidden menu -->
+        <div class="menu-content mt-[7vh] h-max " id="menuContent" onclick="toggleMenu()" >
+            <ul class="text-white text-start px-20 space-y-6 py-10">
+                <li><a class=" hover:brightness-75 lg:block text-white  font-serif" href="">Fearures</a></li>
+                <li><a class=" hover:brightness-75 lg:block text-white font-serif" href="">Style Guide</a></li>
+                <li><a class=" hover:brightness-75 lg:block text-[#2d65ff] font-serif" href="">Landing Page</a></li>
+                <li><a class=" hover:brightness-75 lg:block text-white font-serif" href="">Membership</a></li>
+                <li><a class=" hover:brightness-75 lg:block text-white font-serif" href="">Documentation</a></li>
+                <li><a class=" lg:block text-xl  px-3 text-[#2d65ff] font-serif border border-[#2d65ff] rounded-3xl hover:-translate-y-1 duration-500" href="">Sign In</a></li>
+            </ul>
+        </div>
+
+    <div class="h-full -mt-5">
+            <div class="h-full text-center content-center space-y-5">
+                <p class="text-white text-3xl md:text-5xl lg:text-7xl font-bold px-[60px]  md:px-16 lg:px-0 md:w-full lg:w-[55vw] h-auto pb-3 mx-auto">Upgrade Your Cooking Experience</p>
+                <p class="text-white text-xl md:text-2xl font-medium">Discover the scecrets of culinary mastery</p>
+                <p class=" text-lg font-normal pt-6"><a class="text-center px-4 py-2 text-black border bg-white rounded-3xl " href="">Upgrade Now</a></p>
+            </div>
+         </div>
+    </nav>
+    <!-- nav end -->
+    <!-- 1st -->
+    <div class="h-[95vh] md:h-[50vh] lg:h-[90vh]">
+        <div class="h-full grid md:grid-cols-2 overflow-hidden">
+            <div class=" overflow-hidden">
+                    <img class="h-full  " src="2_pics/jason-briscoe-7MAjXGUmaPw-unsplash.jpg" alt="">
+            </div>
+            <div class="bg-[#fdf4e3] pl-5 md:pl-12  content-center space-y-10">
+                    <p class=" md:pr-10 text-black text-5xl font-bold">Sign Up to <br class="md:hidden"> Get Your <br class="md:hidden"> Exclusive Access</p>
+                    <p class="text-black text-xl md:pr-14 lg:pr-0 ">Dive deeper into the craft and unlock the writer's toolbox: Tips,tricks and tales await!</p>
+                    <p class="text-lg font-normal"><a href="" class="text-center px-5 py-2 bg-black border text-white rounded-3xl"> Get access</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd -->
+    <div class="h-[95vh] md:h-[50vh] lg:h-[90vh]">
+        <div class="h-full grid md:grid-cols-2 overflow-hidden">
+           
+            <div class="bg-[#ffd9d8] px-5 md:pl-12  content-center space-y-10">
+                    <p class=" md:pr-10 text-black text-5xl font-bold">Join the Masterclass</p>
+                    <p class="text-black text-xl md:pr-14 lg:pr-0 ">No matter where you are with money,this will help you finally get a grip on your finances and be more in control of your money.</p>
+                    <p class="text-lg font-normal"><a href="" class="text-center px-5 py-2 bg-black border text-white rounded-3xl">Apply now</a></p>
+            </div>
+            <div class=" overflow-hidden">
+                <img class="h-full  " src="2_pics/soundtrap-n30_i7mx62o-unsplash.jpg" alt="">
+        </div>
+        </div>
+    </div>
+    <!-- 3rd -->
+    <div class="h-[95vh] md:h-[50vh] lg:h-[90vh]">
+        <div class="h-full grid md:grid-cols-2 overflow-hidden">
+            <div class=" overflow-hidden">
+                    <img class="h-full " src="2_pics/helena-lopes-e6nbDogdXXQ-unsplash.jpg" alt="">
+            </div>
+            <div class="bg-[#d8fc92] pl-5 md:pl-12  content-center space-y-10">
+                    <p class=" md:pr-10 text-black text-5xl font-bold">Intro to Fashion Design</p>
+                    <p class="text-black text-xl md:pr-14 lg:pr-0 ">Learn Step-byStep professional fashion drawing techniques, using Crioquis, Pumb lines, Body movement, Shading, Folds and more.</p>
+                    <p class="text-lg font-normal"><a href="" class="text-center px-5 py-2 bg-black border text-white rounded-3xl">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- 4th -->
+    <div class="h-[95vh] md:h-[50vh] lg:h-[90vh]">
+        <div class="h-full grid md:grid-cols-2 overflow-hidden">
+            <div class="bg-[#fdf4e3] pl-5 md:pl-12  content-center space-y-10">
+                    <p class=" md:pr-10 text-black text-5xl font-bold">Discover Our Unique Creations Today</p>
+                    <p class="text-black text-xl md:pr-14 lg:pr-0 ">Where innovation meets inspiration.</p>
+                    <p class="text-lg font-normal"><a href="" class="text-center px-5 py-2 bg-black border text-white rounded-3xl">Explore now</a></p>
+            </div>
+            <div class=" overflow-hidden">
+                <img class="h-full  " src="2_pics/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="">
+        </div>
+        </div>
+    </div>
+    <footer class=" h-[130vh] md:h-[95vh] lg:h-[160vh] ">
+        <div class="  overflow-hidden">
+            <div class="h-[65vh] md:h-[50vh] lg:h-[110vh] bg-cover  bg-center  bg-no-repeat  " style="background-image: url('2_pics/nordwood-themes-pYWrdKO5ksI-unsplash.jpg');">
+                <div class=" h-full ">
+                <div class="mx-auto h-full content-center items-center text-center w-full md:w-[70vw] md:pl-10 lg:w-[48vw] tracking-tighter">   
+                 <p class="px-[20vw] md:px-[2vw] lg:px-[4vw] items-center text-white text-3xl md:text-6xl font-[600]  mb-5 tracking-tighter">Exclusive Recipes and Cooking Tips</p>
+                 <p class="text-white text-xl mb-12 px-5 lg:px-6 font-[500]">Join our culinary community and embark on a flavorful <br class="hidden md:block lg:hidden"> journey with us. Let's cook up something delicious together.</p>
+                 <div class=" px-[10vw] h-[5vh] md:h-[3vh] lg:h-[6vh]  bg-transparent">
+                        <div class="text-white  h-full bg-white rounded-sm  ">
+                            <div class="flex justify-between p-1 h-full items-center text-sm">
+                                <input class="text-[#c1c2c5] text-xs font-geist w-full px-3" type="text" name="" placeholder="Your email" id="">
+                               <button class=" text-white font-geist box-border px-4 h-full content-center hover:brightness-125  rounded-sm bg-[#635bff]">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                 <p class="text-white text-sm   mt-3">No spam. Unsubscribe anytime.</p>
+                </div>
+            </div>
+            </div>
+        </div> 
+            <div class="h-[65vh] md:h-[50vh] bg-[#0c1117]  content-center">
+               <div class=" flex flex-col  lg:flex-row lg:justify-between mx-5 lg:mx-[15vw] gap-y-10 ">
+                <div class="logo">
+                    <img class="h-9 w-24 invert"  src="2_pics/ghost-logo-dark.png" alt="">
+                </div>
+               <div class="grid  grid-row-3 gap-10 lg:grid-cols-3 lg:justify-between lg:space-x-10 text-[#a2a3b4] text-sm">
+                <div class="lg:flex lg:flex-col grid grid-cols-2 gap-y-3 ">
+                    <ul class=""><a href="" class="hover:brightness-75">Features      </a></ul>
+                    <ul class=""><a href="" class="hover:brightness-75">Style Guide  </a> </ul>
+                    <ul class=""><a href="" class="hover:brightness-75">Landing Page </a> </ul>
+                    <ul class=""><a href="" class="hover:brightness-75">Membership   </a> </ul>
+                    <ul class=""><a href="" class="hover:brightness-75">Documentation</a> </ul>
+                </div>
+                <div class=" lg:flex lg:flex-col grid grid-cols-2 gap-y-3 ">
+                    <ul ><a class="hover:brightness-75" href="">About </a></ul>
+                    <ul ><a class="hover:brightness-75" href="">Newsletter </a></ul>
+                    <ul ><a class="hover:brightness-75" href="">Authors </a></ul>
+                    <ul ><a class="hover:brightness-75" href="">Tags </a></ul>
+                </div>
+                <div class=" lg:flex lg:flex-col grid grid-cols-2 gap-y-3">
+                    <ul class=""> <a class="flex items-center gap-x-2 hover:brightness-75 " href=""> <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      </span>Search</a></ul>
+                    <ul class=" "> <a class="hover:brightness-75 flex items-center gap-x-2  " href=""> <span ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-4 gap-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+                      </svg>
+                      </span> System theme </a></ul>
+                </div>
+               </div>
+               </div>
+               <div class="box-border border-t mx-5 lg:w-[70vw] lg:mx-auto border-[#576170] mt-10 mb-6"> </div>
+               <div class="w-[85vw] md:w-[70vw] h-[3vh]  mx-auto  " >
+               <div class="flex flex-col-reverse lg:flex-row lg:justify-between content-center items-center  gap-y-5">
+                <div class="text-[#a2a3b4] text-sm text-center">&copy;2024 Glow Ghost Theme — Proudly published with <span class="text-white font-semibold">Ghost</span>
+                </div>
+                <div class="space-x-5">
+                   <button> <svg  class="bi bi-twitter-x text-white"  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentcolor"viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                      </svg>  </button>
+                      <button><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-facebook text-white" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></button>
+                     <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                          </svg>
+                     </button>
+                </div>
+               </div>
+            </div>
+            </div>
+    </footer>
+
+</body>
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+   var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navb").style.top = "0";
+    document.getElementById("menuContent").style.top = "0";
+  } else {
+    document.getElementById("navb").style.top = "-50vh";
+    document.getElementById("menuContent").style.top = "-7vh";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const menuContent = document.getElementById('menuContent');
+            hamburger.classList.toggle('open');
+            menuContent.classList.toggle('open');
+        }
+         window.addEventListener('click', function(event) {
+            const menuContent = document.getElementById('menuContent');
+            const hamburger = document.querySelector('.hamburger');
+            if (!menuContent.contains(event.target) && !hamburger.contains(event.target)) {
+                menuContent.classList.remove('open');
+                hamburger.classList.remove('open');
+            }
+        });
+
+
+</script>
+<style>
+         
+        .hamburger.open .line1 {
+            transform: translateY(5px) rotate(45deg);
+        }
+        .hamburger.open .line2 {
+            opacity: 0;
+        }
+        .hamburger.open .line3 {
+            transform: translateY(-5px) rotate(-45deg);
+        }
+
+        .menu-content {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 50;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+            
+        }
+        .menu-content.open {
+            display: block;
+            transform: translateX(0%);
+        }
+</style>
+</html>

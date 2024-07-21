@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'geist';
+    src: url('/assest/GeistVF-BF6569491f13184.ttf') format('ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

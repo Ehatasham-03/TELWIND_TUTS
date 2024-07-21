@@ -1,0 +1,20 @@
+{
+  "name": "telwind_tuts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "geist": "^1.3.1",
+    "tailwind-scrollbar": "^3.1.0"
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+    <div class="bg-[url('pics/1-home.jpg')] h-max md:h-screen bg-cover bg-center bg-no-repeat ">
+    <!-- <div class=" flex flex-col"> -->
+
+        <!-- navbar start here -->
+            <nav class="pt-7  flex justify-between px-[30px] md:px-[50] lg:px-[70px] ">
+                <div class="">
+                    <img class=" w-[65px] h-[65px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-transparent   duration-300 " src="pics/logo-white-1-150x150.png" alt="">
+                </div>
+                <div class="content-center hidden md:flex">
+                <ul class="flex space-x-[30px] text-xl text-white  py-2 px-3 ">
+                    <li class="border border-transparent rounded-lg hover:text-green-500 duration-500"><a href="#">Home</a></li>
+                    <li class="border border-transparent rounded-lg  hover:text-green-500 duration-500"><a href="#">About</a></li>
+                    <li class="border border-transparent rounded-lg  hover:text-green-500 duration-500"><a href="#">Service</a></li>
+                    <li class="border border-transparent rounded-lg  hover:text-green-500 duration-500"><a href="#">Contact</a></li>
+                    <li class=""><a class=" rounded-lg py-2 px-3  hover:bg-green-700 duration-500 " href="#">318-815-6066</a></li>
+                    <li class="text-white text-9xl md:hidden">&#10539;</li>
+                 </ul>
+                </div>
+                <div class="md:hidden relative content-center text-center bg-green-500 rounded-full w-max ">
+                    <button class="hamburger lg:hidden focus:outline-none px-5"   onclick="toggleMenu()">
+                        <span class="line1 block relative bg-white w-6 h-[2px] duration-300 rounded-sm"></span>
+                        <span class="line2 block relative bg-white w-6 h-[2px] duration-300 rounded-sm mt-[6px]"></span>
+                        <span class="line3 block relative bg-white w-6 h-[2px] duration-300 rounded-sm mt-[6px]"></span>
+                    </button>
+                </div>
+            </nav>
+                 <!-- hidden menu -->
+        <div class="menu-content  h-max " id="menuContent" onclick="toggleMenu()" >
+            <ul class="text-black text-start px-20 space-y-6 py-10">
+                <li class="border border-transparent rounded-lg text-green-500 "><a href="#">Home</a></li>
+                    <li class=""><a href="#">About</a></li>
+                    <li class=""><a href="#">Service</a></li>
+                    <li class=""><a href="#">Contact</a></li>
+                    <li class=""><a href="#">318-815-6066</a></li>
+                    
+            </ul>
+        </div>
+                  
+                  
+                  
+                
+            
+         <!-- navbar ends here -->
+          <div class="h-[40vh]   md:h-screen md:w-[40rem] md:mx-auto flex flex-col items-center justify-center text-center space-y-12">
+                <p class="text-3xl md:text-4xl text-white lg:text-6xl">Once you choose hope, <span class="flex flex-col md:mt-5">  anything is possible...</span></p>
+                <!-- <p class="text-center taxt-2xl md:text-4xl text-white lg:text-6xl line-clamp-2 sm:line-clamp-none">Once you choose hope, anything is possible...</p> -->
+             <a class="text-2xl text-white rounded-lg w-[150px] h-[45px] px-3.5 py-1 bg-green-800 hover:bg-green-700 duration-500  " href="#">Get Started</a>
+        </div>
+    <!-- </div> -->
+</div>
+
+    <div class="bg-white">
+        <div class="mt-28  flex flex-col items-center text-center space-y-5" >
+            <p class="font-sans text-black md:text-base text-xs md:font-normal">CERTIFIED WEB DESIGNER BASED IN OAKLAND, CALIFORNIA</p>
+            <p class="font-sans text-black text-5xl font-[42px] px-2 py-2 rounded-md">Problems I can help with</p>
+            <div class="w-28 border border-b-2 border-green-700"></div>
+        </div>
+        <!-- grid section -->
+                <!-- first grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-14 mt-10 px-7 md:mx-[40px] lg:mx-[115px]  " >
+                <ul class=" "><img class="rounded-lg bg-cover bg-bottom w-full h-[475px] " src="pics/2-home.jpg" alt="">
+                <p class="text-3xl pt-4 pl-2 pb-3">Web Design</p>
+                <p class="text-[21px] font-sans pl-2 line-clamp-3">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+                </ul>
+                
+                <!-- second grid -->
+                <ul class="" ><img class="rounded-lg bg-cover bg-bottom w-full h-[475px]" src="pics/3-home.jpg" alt="">
+                    <p class="text-3xl pt-4 pl-2 pb-3">Graphic Design</p>
+                    <p class="text-[21px] font-sans pl-2 line-clamp-3">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+            </ul>
+                <!-- third grid -->
+                <ul class="" ><img class="rounded-lg bg-cover bg-bottom w-full h-[475px]" src="pics/4-home.jpg" alt="">
+                <p class="text-3xl pt-4 pl-2 pb-3">Content Creation</p>
+                <p class="text-[21px] font-sans pl-2 line-clamp-3">Focus on how you can help and benefit your user. Use simple words to avoid confusion.</p>
+                </ul>
+            </div>
+        <!-- grid ends here -->
+
+    <!-- clint profile start -->
+    <div class="bg-[#eaf3ee] md:h-[40vh] lg:h-[75vh] h-[60vh] my-[80px]">
+            <div class=" flex justify-center flex-col pt-16 items-center">
+                <img class="rounded-full w-[75px] h-[75px]" src="pics/5-home.jpg" alt="">
+                <p class="font-sans ">Ruth A. Flora</p>
+                <span class="text-green-500 font-extrabold fill-black">&#9826; &#9826; &#9826; &#9826; &#9826;</span>
+                <!-- <p class="mt-10 px-4 text-center text-2xl font-sans-serif-semibold md:hidden ">You can showcase a client review here. Make it nice and short, then use this button to send them to your reviews or services page.</p> -->
+                <p class=" mt-10 px-4 text-center text-2xl font-sans-serif-semibold ">You can showcase a client review here. Make it nice<br class="hidden md:block">and short, then use this button to send them to<br class="hidden md:block"> your reviews or services page.</p>
+                <p class="font-semibold mt-12 h-max border-black border-2 rounded-lg py-3  hover:bg-green-900 hover:text-white duration-500 ">
+                    <a class=" mx-5 text-xl " href="#">What My Clients Say</a>
+                </p>
+        </div>
+         </div>
+    <!-- clint profile end -->
+
+    <!-- clint ditels start-->
+     <div class="h-max  lg:mx-11 -mt-5 lg:mt-28 grid lg:grid-cols-5 ">
+        <div class="px-5 md:px-10 lg:px-14 col-start-1 col-end-3">
+            <div class="h-[40vh] lg:h-max overflow-hidden bg-contain  lg:bg-center rounded-lg">
+            <img class="  lg:h-[520px] -translate-y-52 md:scale-[60%] lg:scale-100 md:-translate-y-96 lg:translate-y-0" src="pics/6-home.jpg" alt="">
+        </div>
+            <p class="pt-7 text-2xl text-center hidden lg:block">Dragos Andrei Atudorei</p>
+            <p class="pt-2 text-blance text-base text-center  hidden lg:block "> WordPress Content Creator <br>Certified Web Designer <br> Incurable Perfectionist</p>
+        </div>
+        <div class="lg:pl-12 lg:pr-24 px-5 md:mx-20 lg:mx-0 text-start  lg:col-span-3 space-y-9">
+            
+            <p class="text-sm  font-sans invisible lg:visible " >WELCOME!</p>
+            <p class="text-3xl mx-5  lg:px-0 md:text-4xl font-medium font-sans leading-[50px] text-center lg:text-start ">My name is Andrei and I am the creator of this template.</p>
+            <p class="text-xl/[30px]">I gave it my all to make this the best design to start from. <span class="font-bold">I named it Hope</span>, in honor of my client who inspired me to make it - her middle name is Hope.</p>
+            <p class="text-xl/[30px]">For the first section at the top of the page, I recommend writing something that will <span class="font-bold"> pique the interest </span> of your target audience. Make them curious to read more!</p>
+            <p class="text-xl/[30px]">These middle sections are the perfect place to introduce yourself, and to perhaps start introducing <span class="font-bold">your services</span>.</p>
+            <p class="text-xl/[30px]">The last section below is great for a call to action.</p>
+
+            <div class="grid md:grid-cols-3 gap-5 ">
+                <a class="w-full font-semibold text-center h-max border-black border-2 rounded-lg py-3 px-8 hover:bg-green-900 hover:text-white duration-500" href="">See My Services</a>
+                <a class=" w-full font-semibold text-center  h-max border-black border-2 rounded-lg py-3 px-8 hover:bg-green-900 hover:text-white duration-500" href="">More About Me</a>
+            </div>
+        </div>
+    </div>
+    <!-- clint ditels end-->
+     <!-- </div> -->
+
+     <!-- last footer start  -->
+      <!-- <div class="h-screen"> -->
+     <div class=" h-[50vh] md:h-[20hv] lg:h-[77vh] bg-[url('pics/7-home.jpg')] mt-28 bg-cover bg-center flex justify-center">
+        <div class="my-auto text-center space-y-12 place-items-center">
+            <p class="text-white text-6xl">Insert a call to action</p>
+            <!-- <p class="text-white text-2xl ">Think of what you want your visitor to do next. <span class="flex flex-col"> Maybe they should contact you?</span></p> -->
+            <p class="text-white text-2xl ">Think of what you want your visitor to do next. <br class="hidden md:block"> Maybe they should contact you?</p>
+            <p><a class="text-white text-xl  mx-auto font-sans border-white border-2 rounded-lg py-3 px-10 hover:bg-green-900 hover:text-white duration-500" href="#">Get In Touch</a></p>
+        </div>
+    </div>
+    
+      <footer class="  h-[45vh] lg:h-[18vh] md:h-[23vh] md:py-16 lg:py-0 ">
+        <div class="h-full  flex flex-col lg:flex-row md:justify-between justify-center md:mx-16 items-center space-y-7 md:space-y-0  ">
+    <div class="w-full md:w-max md:space-x-8 lg:space-x-5 md:flex space-y-7 md:space-y-0 text-center ">
+        <ul class=""><a href="#">HOME</a></ul>
+        <ul class=""><a href="#">ABOUT</a></ul>
+        <ul class=""><a href="#">SERVICES</a></ul>
+        <ul class=""><a href="#">CONTACT</a></ul>
+    </div>
+    <!-- <div class="w-full"> -->
+        <div class="lg:pr-24"><img class=" h-[60px] w-[60px] " src="pics/logo-black-1.png" alt=""></div>
+    <!-- </div> -->
+             <div class=" ">
+                 <p class="flex justify-center">© 2024 Hope Starter Design</p>
+             </div>
+             <!-- </div> -->
+            </div>
+     </footer>
+     <!-- last footer start  -->
+
+</body>
+<script>
+    function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const menuContent = document.getElementById('menuContent');
+            hamburger.classList.toggle('open');
+            menuContent.classList.toggle('open');
+        }
+         window.addEventListener('click', function(event) {
+            const menuContent = document.getElementById('menuContent');
+            const hamburger = document.querySelector('.hamburger');
+            if (!menuContent.contains(event.target) && !hamburger.contains(event.target)) {
+                menuContent.classList.remove('open');
+                hamburger.classList.remove('open');
+            }
+        });
+
+</script>
+<style>
+         
+    .hamburger.open .line1 {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.open .line2 {
+        opacity: 0;
+    }
+    .hamburger.open .line3 {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .menu-content {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:#fff;
+        z-index: 50;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        
+    }
+    .menu-content.open {
+        display: block;
+        transform: translateX(0%);
+        transform: translatey(35%);
+    }
+</style>
+</html>
